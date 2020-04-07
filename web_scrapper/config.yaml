@@ -12,8 +12,8 @@ news_sites:
       article_body: ''
       article_title: ''
   elespectador:
-    url: https://www.elespectador.com/noticias/
+    url: https://www.elespectador.com
     queries:
-      homepage_article_liks: ''
+      homepage_article_links: '.node-title.field.field--name-title.field--type-ds.field--label-hidden a'
       article_body: ''
       article_title: ''
