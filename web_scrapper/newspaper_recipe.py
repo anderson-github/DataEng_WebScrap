@@ -30,6 +30,7 @@ def main(filename):
 	df = _tokenize_column(df, 'title', stop_words)
 	df = _tokenize_column(df, 'body', stop_words)
 	
+	
 	return df
 
 	
@@ -118,7 +119,7 @@ def _tokenize_column(df, column_name, stop_words):
             .apply(lambda valid_word_list: len(valid_word_list))
 						)
 						
-	df['n_tokens_'+column_name] = n_tokens
+	df['n_tokens_' + column_name] = n_tokens
 	
 	return df
 
