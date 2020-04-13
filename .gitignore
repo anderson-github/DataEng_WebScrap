@@ -259,4 +259,11 @@ pip-selfcheck.json
 # To avoid upload csv files:
 *.csv
 
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
 
