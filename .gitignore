@@ -256,7 +256,7 @@ pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/git,venv,linux,python,virtualenv,pycharm+all,jupyternotebooks
 
-# To avoid upload csv files:
+### To avoid upload csv files:
 *.csv
 
 ### Database ###
@@ -267,3 +267,26 @@ pip-selfcheck.json
 *.pdb
 *.sqlite3
 
+### Data folder ###
+/ECG_heartbeats
+
+### Microsoft Office ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
